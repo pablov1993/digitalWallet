@@ -1,0 +1,215 @@
+/* 01. Utilities */
+.mb-15{
+    margin-bottom: 15px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.mb-45{
+    margin-bottom: 45px;
+}
+
+.p30{
+    padding:30px;
+}
+
+.ml-1rem{
+    margin-left: 1rem;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+/* --- */
+
+.App {
+    text-align: center;
+}
+
+.input-group {
+    margin-top: 10px;
+    width: 60%;
+    justify-content: space-between;
+}
+
+
+label, input {
+    flex-basis: 250px;
+    justify-content: space-between;
+}
+
+
+.menu {
+    color: #fdfcfb;
+    padding: 100px;
+    min-width: 100vh;
+}
+
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+
+.App-link {
+    color: #09d3ac;
+}
+
+
+.App-Wallet-Logo {
+    border-radius: 50%;
+    height: 40vmin;
+}
+.listaTransacciones{
+    text-align: left;
+    font-size: calc(10px + 1vmin);
+    
+}
+
+.Login {
+    text-align: center;
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    font-size: calc(10px + 1vmin);
+    color: #ffffff;
+    background-image: url("fondo_app.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Logi2 {
+    text-align: center;
+
+    min-height: 100vh;
+    display: grid;
+
+    justify-content: center;
+    font-size: calc(10px + 1vmin);
+    color: #ffffff;
+
+}
+
+.Register {
+    text-align: center;
+    background-color: #282c34;
+    min-height: 100vh;
+    font-size: calc(16px + 1vmin);
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-image: url("fondo_app.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Contraseña {
+    margin-top: 10px;
+}
+
+.Transfer {
+    text-align: center;
+    min-height: 50vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 1vmin);
+    color: white;
+}
+
+
+.buttons{
+    margin-top: 10rem;
+    margin-left: 50rem;
+}
+
+
+.cashin {
+    text-align: center;
+    min-height: 50vh;
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 1vmin);
+    color: white;
+}
+ 
+
+.loguis {
+    max-height: 70px;
+    color: black;
+}
+
+
+.MainPageTop {
+    text-align: center;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    font-size: calc(10px + 1vmin);
+    color: white;
+}
+
+.MainPageMiddle {
+    text-align: left;
+    background-color: #282c34;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 1vmin);
+    color: white;
+    background-image: url("fondo_app.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.Profile{
+    text-align: center;
+    min-height: 50vh;
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 1vmin);
+    color: white;
+}
+
+
+.MainPageBottom {
+    text-align: left;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 1vmin);
+    color: white;
+}
+
+.FormContainer{
+    background-color: rgba(0,0,0,.6);
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+/*
+.form-control{
+    text-align: center;
+    min-width: 50vh;
+    justify-content: space-between;
+}
+*/
